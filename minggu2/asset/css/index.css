@@ -1,0 +1,87 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.row {display: flex;}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/logo_itera.png") ;
+    background-size: 100% 100%;
+    padding: 10% 0;
+    text-align: center;
+}
+
+nav {
+    padding: 3% 2% 3% 0;
+    text-align: right;
+    background-color: rgb(40, 45, 88);
+}
+
+nav a{
+    text-decoration: none;
+    color: ivory;
+    margin: 0 5px;
+}
+
+.main {
+    margin: 0 10%;
+    display: flex;
+}
+
+.main-content {
+    /* background-color: rgb(114, 221, 240); */
+    width: 80%;
+    height: 100%;
+    /* float: left; */
+    text-align: center;
+
+}
+
+.content-berita {
+    background-color: rgb(247, 247, 247);
+    width: 20%;
+    height: 100%;
+    /* padding-right: 10%; */
+    /* float: left; */
+    text-align: center;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.content-berita img {
+    width: 100px;
+    height: 100px;
+}
+
+.berita {
+    /* float: left; */
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.photo-profile {
+    height: 300px;
+    width: 200px;
+    margin: 0 0 20px 0;
+}
+
+footer{
+    background-color: rgb(21, 21, 36);
+    color: white;
+    padding: 5% 5%;
+}
