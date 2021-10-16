@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body id="bd">
+    <div>
+        Select theme : 
+        <select name="theme" id="theme" onchange="theme()">
+            <option value="0" selected>white</option>
+            <option value="1">black</option>
+        </select>
+        <h1>This is my website</h1>
+        
+        Select the weather type today : 
+        <select name="weather" id="weather" onchange="cuaca()">
+            <option value="0" selected>sunny</option>
+            <option value="1">rainny</option>
+        </select> <br>
+        <p id="situation">It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream</p>
+        Input Number : 
+        <input type="text" id="factor">
+        <button onclick="factor()">Get Factorial</button>
+        <p><label for="" id="hasil"> </label></p>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
