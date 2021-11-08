@@ -16,7 +16,7 @@ function operator(){
 
 
 function aray_random(){
-    echo "<br><br> RANDOM ARRAY<br><br>";
+    echo "<h2> RANDOM ARRAY</h2>";
 
     $arr = array("larine", "aduh", "qifuat", "toda", "anevi", "samid", "kifuat", "tomas", "jojo", "anton");
     shuffle($arr);
@@ -29,6 +29,7 @@ function aray_random(){
 
 
 function prima(){
+    echo " <h2>BILANGAN PRIMA</h2>";
     for($i = 2; $i <=50; $i++){
         for($j = 2; $j<$i ;$j++){
 
