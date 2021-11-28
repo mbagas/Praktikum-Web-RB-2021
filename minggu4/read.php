@@ -13,7 +13,7 @@
         <th>Aksi</th>
     </thead>
     <?php
-    $Hasil = mysqli_query($con,"SELECT * FROM mahasiswa order by nim asc");
+    $Hasil = mysqli_query($con,"SELECT * FROM mahasiswa order by nim asc") or die("Query error : " . mysqli_error($con));
         
     while ($data = mysqli_fetch_array($Hasil)):
     ?>
